@@ -12,3 +12,4 @@
 !ssh/sshd_config.d
 !mkinitcpio.conf
 !sudoers
+!greetd/*
