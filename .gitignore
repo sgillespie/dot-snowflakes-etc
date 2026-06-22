@@ -7,9 +7,13 @@
 # Only track files that have been changed
 !.gitignore
 !pacman.conf
+!pacman.d/
 !pacman.d/mirrorlist
+!ssh/
 !ssh/sshd_config
-!ssh/sshd_config.d
+!ssh/sshd_config.d/
+!ssh/sshd_config.d/**
 !mkinitcpio.conf
 !sudoers
-!greetd/*
+!greetd/
+!greetd/**
