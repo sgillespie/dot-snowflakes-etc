@@ -1,0 +1,14 @@
+*
+
+# etckeeper files
+!.etckeeper
+!etckeeper/
+
+# Only track files that have been changed
+!.gitignore
+!pacman.conf
+!pacman.d/mirrorlist
+!ssh/sshd_config
+!ssh/sshd_config.d
+!mkinitcpio.conf
+!sudoers
