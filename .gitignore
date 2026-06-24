@@ -3,6 +3,7 @@
 # etckeeper files
 !.etckeeper
 !etckeeper/
+!etckeeper/etckeeper.conf
 
 # Only track files that have been changed
 !.gitignore
