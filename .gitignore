@@ -1,20 +1,32 @@
+## Whitelist-only ignore list; only allow files/directories listed here to be tracked in 
+## git
 *
+# This file
+!.gitignore
 
-# etckeeper files
+## etckeeper files
 !.etckeeper
 !etckeeper/
 !etckeeper/etckeeper.conf
 
-# Only track files that have been changed
-!.gitignore
+## Configuration files to track; only list files that have been been customized beyond 
+## what pacman ships
+!locale.gen
+!mkinitcpio.conf
+!sudoers
+
+!greetd/
+!greetd/**
+
+!nix/
+!nix/nix.conf
+
 !pacman.conf
 !pacman.d/
 !pacman.d/mirrorlist
+
 !ssh/
 !ssh/sshd_config
 !ssh/sshd_config.d/
 !ssh/sshd_config.d/**
-!mkinitcpio.conf
-!sudoers
-!greetd/
-!greetd/**
+
