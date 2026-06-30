@@ -28,6 +28,9 @@
 !pacman.d/
 !pacman.d/mirrorlist
 
+!pam.d/
+!pam.d/system-login
+
 !security/
 !security/faillock.conf
 
