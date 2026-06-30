@@ -15,6 +15,9 @@
 !mkinitcpio.conf
 !sudoers
 
+!bluetooth
+!bluetooth/**
+
 !greetd/
 !greetd/**
 
@@ -24,6 +27,9 @@
 !pacman.conf
 !pacman.d/
 !pacman.d/mirrorlist
+
+!security/
+!security/faillock.conf
 
 !ssh/
 !ssh/sshd_config
