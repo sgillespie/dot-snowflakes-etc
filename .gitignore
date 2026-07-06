@@ -13,10 +13,15 @@
 ## what pacman ships
 !locale.gen
 !mkinitcpio.conf
+!makepkg.conf
 !sudoers
 
 !bluetooth
 !bluetooth/**
+
+!cardano
+!cardano/**/
+!cardano/**/*.json
 
 !greetd/
 !greetd/**
@@ -39,3 +44,13 @@
 !ssh/sshd_config.d/
 !ssh/sshd_config.d/**
 
+!systemd/
+!systemd/system/
+!systemd/system/cardano-db-sync@.service.d
+!systemd/system/cardano-db-sync@.service.d/*
+!systemd/system/cardano-node@.service.d
+!systemd/system/cardano-node@.service.d/*
+
+
+!tmpfiles.d
+!tmpfiles.d/blockchain.conf
