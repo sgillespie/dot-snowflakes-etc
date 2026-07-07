@@ -36,6 +36,9 @@
 !pam.d/
 !pam.d/system-login
 
+!plymouth/
+!plymouth/**
+
 !security/
 !security/faillock.conf
 
