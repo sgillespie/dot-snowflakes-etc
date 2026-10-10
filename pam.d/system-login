@@ -21,3 +21,5 @@ session    optional   pam_mail.so          dir=/var/spool/mail standard quiet
 session    optional   pam_umask.so
 -session   optional   pam_systemd.so
 session    required   pam_env.so
+
+auth       required   pam_u2f.so           authfile=/etc/u2f_mappings cue prompt
